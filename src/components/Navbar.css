@@ -1,0 +1,9 @@
+.navbar {
+    position: relative;
+}
+
+.navbar div.container img.halqa {
+    position: absolute;
+    bottom: 10px;
+    right: 160px;
+}
