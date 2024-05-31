@@ -1,10 +1,12 @@
 import React from 'react'
 import App from './App.jsx'
 import ReactDOM from 'react-dom'
+import { ToastContainer } from 'react-toastify'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    <ToastContainer/>
   </React.StrictMode>,
 )
 

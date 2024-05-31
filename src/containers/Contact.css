@@ -1,0 +1,50 @@
+form {
+    background-color: #1c2b32;
+    width: 500px;
+    height: 563px;
+}
+
+form div input {
+    background-color: transparent !important;
+}
+
+
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+textarea {
+    overflow: -moz-scrollbars-none; /* For Firefox before 64 */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox 64 and later */
+}
+
+form div textarea {
+    background-color: transparent !important;
+}
+
+form div input,textarea {
+    border: none !important;
+    border-bottom: 2px solid #8a8a8a !important;
+}
+
+form div input::placeholder,textarea::placeholder{
+    color: white !important;
+}
+
+.send-btn {
+    background-color: #4eba85 !important;
+    border-radius: 4px;
+    width: 148px;
+    height: 56px;
+    border: 1px solid #4eba85;
+}
+
+.konteyner {
+    height: 100vh;
+}
+
+textarea {
+    resize: none;
+}
