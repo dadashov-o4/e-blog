@@ -2,6 +2,8 @@ import React from 'react'
 import ArticlesSection from '../components/ArticlesSection'
 import Inspiring from '../components/Inspiring'
 import Contact from './Contact'
+import Shirketler from '../components/Shirketler'
+
 
 const Home = () => {
   return (
@@ -10,6 +12,7 @@ const Home = () => {
     <Inspiring/>
       <ArticlesSection/>
       <Contact/>
+      <Shirketler/>
     </>
   )
 }
