@@ -37,6 +37,7 @@ const Shirketler = () => {
         <SwiperSlide><Shirket imageProps={shekil2}/></SwiperSlide>
         <SwiperSlide><Shirket imageProps={shekil3}/></SwiperSlide>
         <SwiperSlide><Shirket imageProps={shekil4}/></SwiperSlide>
+        <SwiperSlide><Shirket imageProps={shekil4}/></SwiperSlide>
         </Swiper>
         
     </div>
